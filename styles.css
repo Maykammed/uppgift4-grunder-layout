@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hwb(0 0% 100%);
+}
+
+article,
+footer {
+    background-color: rgb(255, 115, 0);
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 127, 212);
+}
+
+article {
+
+    padding: 0 10px;
+
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(56, 42, 165, 0.032);
+}
